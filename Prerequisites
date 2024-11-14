@@ -2,3 +2,22 @@ file = file shape_predictor_68_face_landmarks.dat
 
 The file shape_predictor_68_face_landmarks.dat is a pre-trained model used in facial landmark detection. 
 It is part of the Dlib library, a popular toolkit for machine learning and computer vision tasks, such as object detection, facial recognition, and pose estimation.
+
+This file contains a model that can detect 68 specific points (or landmarks) on a human face. These landmarks correspond to key facial features such as the eyes, eyebrows, nose, mouth, and jawline.
+
+The 68 Facial Landmarks:
+Here’s a general breakdown of the 68 points:
+
+Eyebrows: Points that define the contour of each eyebrow (e.g., points 17–22 for the left eyebrow, and 23–27 for the right eyebrow).
+Eyes: Points that define the eyelids, including the upper and lower boundaries of both eyes (e.g., points 36–41 for the left eye, and 42–47 for the right eye).
+Nose: Points that represent the contour of the nose, including the nose bridge and tip (e.g., points 27–35).
+Mouth: Points that outline the contour of the lips (e.g., points 48–59).
+Jawline: Points that define the contour of the jaw (e.g., points 0–16).
+
+The landmarks are used in various facial analysis tasks, such as:
+
+Face Alignment: By detecting the position and orientation of facial landmarks, it’s possible to align faces in a standardized way, which is important for face recognition or emotion analysis.
+Expression Analysis: Analyzing the movement and deformation of landmarks can help recognize facial expressions.
+Head Pose Estimation: The relative positioning of landmarks can help determine the pose (e.g., tilt or rotation) of the face.
+Augmented Reality: Facial landmarks are often used to overlay digital effects on the face, such as virtual makeup or animated emojis.
+
