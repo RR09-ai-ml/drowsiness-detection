@@ -1,0 +1,2 @@
+file = file shape_predictor_68_face_landmarks.dat
+The file shape_predictor_68_face_landmarks.dat is a pre-trained model used in facial landmark detection. It is part of the Dlib library, a popular toolkit for machine learning and computer vision tasks, such as object detection, facial recognition, and pose estimation.
